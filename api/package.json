@@ -1,0 +1,36 @@
+{
+  "name": "dronaid-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "*",
+    "express-mongo-sanitize": "^1.3.2",
+    "geolib": "^2.0.24",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "*",
+    "morgan": "~1.9.0",
+    "nib": "^1.1.2",
+    "serve-favicon": "~2.4.5",
+    "stylus": "^0.54.5"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyhawk/DRONAID_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennyhawk/DRONAID_API/issues"
+  },
+  "homepage": "https://github.com/bennyhawk/DRONAID_API#readme",
+  "description": ""
+}
